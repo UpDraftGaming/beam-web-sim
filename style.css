@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #111;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+#hud {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(15, 20, 25, 0.85);
+  padding: 15px 20px;
+  border-radius: 8px;
+  border-left: 4px solid #ff6b00;
+  pointer-events: none;
+  user-select: none;
+}
+
+#hud h1 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #ff6b00;
+}
+
+#hud p {
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  color: #ddd;
+}
+
+#telemetry {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #333;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #00ffcc;
+}
